@@ -1,8 +1,13 @@
-# Quantum Kernels [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Quantum Kernels
 
-*A curated list of quantum-accelerated kernels.*
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+![visitors](https://visitor-badge.glitch.me/badge?style=flat-square&page_id=sptemporal/awesome-quantum-kernels)
 
-### 101
+This repository is a collection of recent advancements in quantum-accelerated kernels. 
+
+Please feel free to open a [pull request](https://github.com/sptemporal/awesome-quantum-kernels/pulls) if you think I'm missing something or if you have any recommendations (for papers, SDKs, implementations, or other kind of educative resources). 
+
+## Introduction to Quantum Kernels
 
 **What are quantum kernels?**
 
@@ -246,12 +251,15 @@ Also contains fundamental resources to dive into this area.
 - [Qiskit Quantum Kernel Toolkit](https://github.com/qiskit-community/prototype-quantum-kernel-training)
 - [Qiskit QKT Prototype - Optimizing kernels using weighted kernel alignment](https://github.com/qiskit-community/prototype-quantum-kernel-training/blob/main/docs/background/svm_weighted_kernel_alignment.ipynb)
 - [Qiskit QuantumKernel Base Class](https://qiskit.org/documentation/machine-learning/stubs/qiskit_machine_learning.kernels.QuantumKernel.html)
+- [Qiskit FidelityQuantum Kernel](https://qiskit.org/documentation/machine-learning/stubs/qiskit_machine_learning.kernels.FidelityQuantumKernel.html#qiskit_machine_learning.kernels.FidelityQuantumKernel)
 - [Qiskit QuantumKernelTrainer Class](https://qiskit.org/documentation/machine-learning/stubs/qiskit_machine_learning.kernels.algorithms.QuantumKernelTrainer.html#qiskit_machine_learning.kernels.algorithms.QuantumKernelTrainer)
 - [Qiskit PegasosQSVC Class](https://qiskit.org/documentation/machine-learning/stubs/qiskit_machine_learning.algorithms.PegasosQSVC.html)
 - [Qiskit QSVC Class](https://qiskit.org/documentation/machine-learning/stubs/qiskit_machine_learning.algorithms.QSVC.html)
 - [Qiskit QSVR Class](https://qiskit.org/documentation/machine-learning/stubs/qiskit_machine_learning.algorithms.QSVR.html)
+- [Qiskit SamplerQNN](https://qiskit.org/documentation/machine-learning/stubs/qiskit_machine_learning.neural_networks.SamplerQNN.html#qiskit_machine_learning.neural_networks.SamplerQNN)
 - [Quantum Circuit Simulation Accelerator with NVIDIA cuStateVec](https://developer.nvidia.com/blog/accelerating-quantum-circuit-simulation-with-nvidia-custatevec/)
 - [Efficient Quantum Neural Network Training with Probabilistic Gradient Pruning](https://www.youtube.com/watch?v=Z85TddJqi6c)
+
 
 ## Papers
 
@@ -262,3 +270,4 @@ Also contains fundamental resources to dive into this area.
 - [Importance of kernel bandwidth in quantum machine learning](https://arxiv.org/pdf/2111.05451.pdf)
 - [QOC: Quantum On-Chip Training with Parameter Shift and Gradient Pruning](https://arxiv.org/abs/2202.13239)
 - [Deterministic and random features for large-scale quantum kernel machine](https://arxiv.org/pdf/2209.01958.pdf)
+- [Error mitigation for quantum kernel based machine learning methods on IonQ and IBM quantum computers](https://arxiv.org/abs/2206.01573)
